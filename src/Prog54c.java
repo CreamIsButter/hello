@@ -9,9 +9,11 @@ public class Prog54c {
 
         double pi = 3.14159;
 
-        double circumference =
+        double circumference = 2 * pi * radius;
 
-        double areaC =
+        double areaC = pi * (Math.pow(radius, 2));
 
-
+        System.out.printf("Area of the circle: %.3f\n", areaC);
+        System.out.println("Circumference of the circle: " + circumference);
+    }
 }
