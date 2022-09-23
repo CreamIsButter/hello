@@ -17,7 +17,7 @@ public class Prog58h {
 
         System.out.println("Number of days at interest?: ");
         double days = input.nextDouble();
-        double intearned = amnt * ((1 + Math.pow(((0.01*interest) / n),(n*days/365))));
+        double intearned = amnt * (1 + Math.pow((0.01*interest) / n,(n*days/365)));
 
         double total = amnt+intearned;
 
