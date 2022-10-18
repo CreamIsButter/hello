@@ -10,11 +10,9 @@ public class Prog58t {
 
         System.out.print("Enter purchase price: ");
         double pp = input.nextDouble();
-        System.out.println("");
 
         System.out.print("Enter amount received: ");
         double ar = input.nextDouble();
-        System.out.println("");
 
         double cd = ar - pp;
 
