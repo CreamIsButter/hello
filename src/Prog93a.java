@@ -26,7 +26,6 @@ public class Prog93a {
         System.out.printf("Citytax                                $  %.2f\n", tax);
         System.out.println(" \t\t\t\t\t\t\t\t\t\t________\n");
         System.out.printf("Pay this amount \t\t\t\t\t   $  %.2f\n", ftotal);
-        System.out.println("");
         System.out.printf("After May 20th Pay\t\t\t\t\t   $  %.2f\n", late);
 
 
