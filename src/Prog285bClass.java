@@ -17,5 +17,6 @@ public class Prog285bClass {
             }
         } catch (IOException e) {
             System.out.println("Can't find data file!");
+        }
     }
 }

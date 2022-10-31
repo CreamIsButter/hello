@@ -9,13 +9,24 @@ public class Prog65h {
         Scanner input = new Scanner(System.in);
 
         System.out.print("Enter pounds: ");
-        int pnds = input.nextInt();
+        double pnds = input.nextInt();
         System.out.print("Enter shillings: ");
-        int shlngs = input.nextInt();
+        double shlngs = input.nextInt();
         System.out.print("Enter pence: ");
-        int pnc = input.nextByte();
+        double pnc = input.nextByte();
 
-        double dblPnc =
+        double dblPnc = pnc / 12;
+        double dblShlngs = shlngs / 100;
+        double dblPnds = pnds + dblPnc + dblShlngs;
+
+        System.out.printf("Decimal pounds: £%.2f\n", dblPnds);
     }
 
 }
+
+/*
+Enter pounds: 7
+Enter shillings: 17
+Enter pence: 9
+Decimal pounds: �7.92
+ */
