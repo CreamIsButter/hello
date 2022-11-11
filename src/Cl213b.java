@@ -21,6 +21,6 @@ public class Cl213b {
     }
 
     public String toString() {
-        return "Price = $" + myPrice + "\tAmount Due"
+        return "Price = $" + myPrice + "\tAmount Due";
     }
 }

@@ -9,6 +9,6 @@ public class ArrayTest {
             System.out.print(nums[lcv] + "");
         System.out.println();
 
-        char[]
+
     }
 }
