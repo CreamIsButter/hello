@@ -107,7 +107,7 @@ public class BigArray {
 
         int count = 0;
         for (int x : array) {
-            if ( int x > average){
+            if ( x > average){
                 count++;
             }
         }

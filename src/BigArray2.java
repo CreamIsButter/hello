@@ -11,5 +11,7 @@ public class BigArray2 {
 
         } catch (IOException e) {
             System.out.println("Can't find data file!");
+
+        }
     }
 }
