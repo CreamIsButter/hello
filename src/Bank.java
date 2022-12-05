@@ -13,7 +13,7 @@ public class Bank {
     public void calc(Transaction thing) {
         if (thing.getCode().equals("C")) {
             myAmount = this.getAmount() - 10;
-        } else {
+        // } else {
             myAmount -= thing.getAmount();
         } else if (thing.getCode().equals("S")){
             myAmount -= thing.getAmount();

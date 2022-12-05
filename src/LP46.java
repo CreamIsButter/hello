@@ -10,7 +10,7 @@ public class LP46 {
         int num1 = (int) (Math.random() * range);
         int num2 = (int) (Math.random() * range);
 
-        System.out.println(num1);
+        System.out.println("What is " num1 + " " + );
         System.out.println(num2);
     }
 }
