@@ -11,6 +11,7 @@ public class LP55 {
     System.out.print("Enter a positive integer: ");
     String intgr = input.nextLine();
 
+
     for (int lcv = 0; lcv < intgr.length(); lcv++) {
         String inty = intgr.substring(lcv, lcv + 1);
         System.out.println(inty);
