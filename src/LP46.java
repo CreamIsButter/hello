@@ -1,6 +1,6 @@
 // Brody Vandiver
 // 12/06/22
-// LP 4 Exercise 6
+// 
 
 import java.util.*;
 
