@@ -9,6 +9,10 @@ public class Person implements names {
         myLast = ln;
     }
 
+    public Person() {
+
+    }
+
     public String getFirst() { return myFirst; }
 
     public String getLast() { return myLast; }

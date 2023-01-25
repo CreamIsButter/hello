@@ -1,3 +1,5 @@
+package Prog701g;
+
 import java.util.*;
 import java.io.*;
 
@@ -19,11 +21,11 @@ public class Prog701g {
                 } else if (num == 2) {
                     int n = input.nextInt();
                     Person p = new Teacher(f, l, n);
-                    list.add(p)
+                    list.add(p);
                 } else if (num == 3) {
                     String fav = input.next();
                     Person p = new Admin(f, l, fav);
-                    list.add(p)
+                    list.add(p);
                 }
                 num = input.nextInt();
             }
@@ -53,6 +55,9 @@ public class Prog701g {
 
 
             System.out.println("Average GPA: " + String.format("%.2f", (tot/cnt)));
+            System.out.println("Total number of students taught by teachers: " + totstus);
+            System.out.println("Smallest favorite admin word: " + sm);
+            System.out.println("Largest favorite admin word " + sm);
 
         } catch (IOException e) {
             System.out.println("Can't find data file!");
