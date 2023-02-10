@@ -6,7 +6,7 @@ public class Prog460a {
     public static void main(String[] args) {
         try {
             Scanner input = new Scanner(new File("data/sort.dat"));
-            int[] list = new int[100];
+            int[] list = new int[60];
             int count = 0;
                     while (input.hasNext()) {
                         list[count] = input.nextInt();
