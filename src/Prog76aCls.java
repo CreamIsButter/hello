@@ -1,4 +1,4 @@
-import java.util.*;
+/* import java.util.*;
 
 private class surprise (int hatenum){
   int num2 = hatenum*9
@@ -21,3 +21,5 @@ public class Prog76aCls {
         }
     }
 }
+
+ */

@@ -43,7 +43,7 @@ public class Prog701g {
                     cnt++;
                 }
                 if (x instanceof Teacher)
-                    totstus += ((Teacher)x).getNumStuds();
+                //    totstus += ((Teacher)x).getNumStuds();
                 if (x instanceof Admin) {
                     String xstring = ((Admin)x).getFavw();
                     if(xstring.length() > large.length())

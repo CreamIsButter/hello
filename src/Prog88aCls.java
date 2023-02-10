@@ -1,4 +1,4 @@
-
+/*
 private static void{
   int num1 = (int)(Math.random() * (13 - 1)) + 1;
         int num2 = (int)(Math.random() * (20 - 2)) + 2;
@@ -39,3 +39,6 @@ class Prog88aCls {
     }
 
 }
+
+
+ */

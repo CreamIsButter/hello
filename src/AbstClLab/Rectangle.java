@@ -1,4 +1,4 @@
-package AbstClLab;
+/* package AbstClLab;
 
 public class Rectangle extends NotCircle{
     private double width;
@@ -26,3 +26,6 @@ public class Rectangle extends NotCircle{
         this.calculateCircumference();
     }
 }
+
+
+ */

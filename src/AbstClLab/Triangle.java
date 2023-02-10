@@ -1,3 +1,4 @@
+/*
 package AbstClLab;
 
 public class Triangle extends notCircle {
@@ -17,3 +18,4 @@ public class Triangle extends notCircle {
 
     public void calculateCircumference()
 }
+*/

@@ -1,4 +1,4 @@
-import java.util.Scanner;
+/*import java.util.Scanner;
 
 public class cool(int num1, int num2, int num3, int num4){
   double sum = numone + numtwo + numthree + numfour;
@@ -16,3 +16,6 @@ public class Prog54bCls {
         System.out.println("The average of the four numbers is: " + average);
     }
 }
+
+
+ */

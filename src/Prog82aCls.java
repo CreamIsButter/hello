@@ -1,4 +1,4 @@
-import java.util.*;
+/* import java.util.*;
 
 public class fine(int speedlimit, int vspeed){
   int fine = 20 + 5 * Math.abs(vspeed - speedlimit);
@@ -15,7 +15,7 @@ public class Prog82aCls {
     }
 }
 
-/*
+
 Enter speed limit: 30
 Enter the vehicle speed: 42
 Fine----------------$80

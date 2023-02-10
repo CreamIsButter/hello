@@ -1,4 +1,4 @@
-import java.util.*;
+/* import java.util.*;
 import java.io.*;
 
 public class Prog402a {
@@ -20,3 +20,4 @@ public class Prog402a {
         }
     }
 }
+*/
