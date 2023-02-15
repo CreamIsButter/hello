@@ -5,12 +5,17 @@ public class Prog477a {
     public static void main(String[] args) {
         try {
             Scanner input = new Scanner(new File("data/prog477a.dat"));
-            int[][] list = new int[33][2];
-            int count = 0;
+            int[][] list = new int[5][3];
             while (input.hasNext()) {
-                list[count][0] = input.nextInt();
-                list[count][1] = input.nextInt();
-                count++;
+                int col = input.nextInt() -1; // reading in gender (1-2)
+                int row = input.nextInt() -1; // reading in grade
+                list [row][col]++; // incrementing grade amount
+            }
+            for (int row = 0; row < list.length; row++) {
+                list[row][2] = list[row][0] + list[row][1]; // gathering total
+            }
+            for (int row = 0; row < list.length; row++) {
+                for (int col = 0; col < )
             }
 
 
