@@ -11,11 +11,35 @@ public class Prog477a {
                 int row = input.nextInt() -1; // reading in grade
                 list [row][col]++; // incrementing grade amount
             }
+
             for (int row = 0; row < list.length; row++) {
                 list[row][2] = list[row][0] + list[row][1]; // gathering total
             }
+
+            String[] grades = {"A", "B", "C", "D", "E"};
+
+            int maleTotal = 0;
+            int femaleTotal = 0;
+            int total = 0;
+
+            for (int col = 0; col < list.length; col++) {
+                for (int row = 0; row < list[0].length; row++){
+                    if (list[col][row] == list[0][row])
+                        maleTotal += list[col][row];
+                    else if (list[col][row] == list[1][row])
+                        femaleTotal += list[col][row];
+                    else if (list[col][row] == list[2][row])
+                        total += list[col][row];
+
+
+                }
+            }
             for (int row = 0; row < list.length; row++) {
-                for (int col = 0; col < )
+                System.out.println();
+                System.out.print(grades[row] + "\t");
+                for (int col = 0; col < list[0].length; col++){
+                    System.out.print(list[row][col] + "\t\t");
+                }
             }
 
 

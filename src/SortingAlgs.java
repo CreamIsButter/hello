@@ -41,18 +41,6 @@ public class SortingAlgs {
         return array;
     }
 
-    public static Cl408a
-    public static int[] insertionSort(int[] array) {
-        for (int lcv = 1; lcv < array.length; lcv++) {
-            int temp = array[lcv];
-            int lcv2 = lcv - 1;
-            while (lcv2 >= 0 && array[lcv2] > temp) {
-                array[lcv2+1] = array[lcv2];
-                lcv2--;
-            }
-            array[lcv2+1] = temp;
-        }
-        return array;
-    }
+
 }
 
