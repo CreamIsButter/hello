@@ -1,3 +1,7 @@
+// Brody Vandiver
+// 2/17/23
+// Program 477a
+
 import java.util.*;
 import java.io.*;
 
